@@ -39,7 +39,7 @@
     - name: Copy custom index.html into the Apache container
       copy:
         #content: "<html><body><h1>Welcome to Apache!</h1></body></html>"
-        src: "/home/ubuntu/dbs-network-project/index.html"
+        src: "/home/ubuntu/ansible-docker-apache-ca1/index.html"
         dest: /tmp/index.html
 
     - name: Copy index.html to Apache container
